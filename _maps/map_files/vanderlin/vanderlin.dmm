@@ -7781,6 +7781,9 @@
 "dGg" = (
 /turf/closed/wall/mineral/stone,
 /area/outdoors/town/keep)
+"dGj" = (
+/turf/closed/wall/mineral/stone/window,
+/area/outdoors/river)
 "dGl" = (
 /obj/structure/flora/grass/bush/wall/tall{
 	pixel_x = -8
@@ -17824,6 +17827,8 @@
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/gun/ballistic/bow/cross,
 /obj/item/ammo_holder/quiver/bolts,
+/obj/item/restraints/legcuffs/beartrap/crafted,
+/obj/item/restraints/legcuffs/beartrap/crafted,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/gate)
 "ivc" = (
@@ -18963,10 +18968,8 @@
 /obj/structure/table/wood/counter{
 	dir = 1
 	},
-/obj/structure/bars/passage/shutter{
-	redstone_id = "stewardshutter"
-	},
 /obj/structure/fake_machine/vendor/steward,
+/obj/structure/bars/passage/shutter/open,
 /turf/open/floor/cobble,
 /area/indoors/town/steward)
 "iVS" = (
@@ -27221,8 +27224,12 @@
 /obj/structure/table/wood/counter{
 	dir = 1
 	},
-/obj/structure/bars/passage/shutter{
+/obj/structure/bars/passage/shutter/open{
 	redstone_id = "stewardshutter"
+	},
+/obj/structure/fake_machine/atm{
+	pixel_x = -32;
+	pixel_y = 0
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/steward)
@@ -31752,6 +31759,7 @@
 /obj/structure/curtain/bounty/dir{
 	dir = 4
 	},
+/obj/structure/bars/alt,
 /turf/open/floor/blocks,
 /area/indoors/town/steward)
 "oGq" = (
@@ -32902,6 +32910,7 @@
 /obj/structure/curtain/bounty/dir{
 	dir = 8
 	},
+/obj/structure/bars/alt,
 /turf/open/floor/hexstone,
 /area/indoors/town/steward)
 "pgI" = (
@@ -40339,6 +40348,19 @@
 	},
 /turf/open/openspace,
 /area/indoors/town/church/chapel)
+"sxL" = (
+/obj/structure/bars{
+	icon_state = "barsbent";
+	layer = 2.81
+	},
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/obj/structure/bars/passage/shutter/open{
+	redstone_id = "stewardshutter"
+	},
+/turf/open/floor/cobble,
+/area/indoors/town/steward)
 "syd" = (
 /obj/structure/minecart_rail{
 	dir = 4
@@ -45501,6 +45523,7 @@
 /obj/structure/curtain/bounty/dir{
 	dir = 1
 	},
+/obj/structure/bars/alt,
 /turf/open/floor/blocks,
 /area/indoors/town/steward)
 "uMR" = (
@@ -47258,6 +47281,10 @@
 /obj/structure/chair/stool,
 /turf/open/floor/cobblerock,
 /area/under/town/basement)
+"vxu" = (
+/obj/structure/fake_machine/mail,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/town/keep/gate)
 "vxF" = (
 /turf/open/floor/churchbrick,
 /area/under/town/sewer)
@@ -48677,6 +48704,11 @@
 /obj/effect/mapping_helpers/access/keyset/church/general,
 /turf/open/floor/church,
 /area/indoors/town/church)
+"wbW" = (
+/obj/structure/floordoor{
+	redstone_id = "stewardshutter"
+	},
+/area/outdoors/town)
 "wch" = (
 /obj/machinery/light/fueled/lanternpost/fixed,
 /obj/structure/fluff/railing/wood{
@@ -53520,6 +53552,11 @@
 	},
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/noble_manor/yellow)
+"yeI" = (
+/obj/structure/floordoor{
+	redstone_id = "thronegrille"
+	},
+/area/outdoors/town)
 "yeP" = (
 /obj/structure/bed/hay,
 /turf/open/floor/herringbone,
@@ -114947,7 +114984,7 @@ hHM
 opb
 hET
 mEn
-hHM
+ojO
 luJ
 luJ
 luJ
@@ -115146,13 +115183,13 @@ sSi
 sSi
 xKB
 hHM
-qDx
+vxu
 qDx
 exd
 hHM
 luJ
 luJ
-unJ
+dGj
 luJ
 luJ
 luJ
@@ -115351,7 +115388,7 @@ hHM
 bRE
 qDx
 pwJ
-vrr
+ojO
 luJ
 luJ
 luJ
@@ -115960,7 +115997,7 @@ wmQ
 ojO
 luJ
 luJ
-unJ
+dGj
 luJ
 luJ
 luJ
@@ -118588,8 +118625,8 @@ lLn
 lLn
 rnh
 mGt
-rea
-rea
+wbW
+wbW
 rea
 rea
 rea
@@ -118789,9 +118826,9 @@ mGE
 kgP
 kSJ
 vqg
-mGt
-vAe
-vAe
+sxL
+wbW
+wbW
 vAe
 vAe
 vAe
@@ -118991,9 +119028,9 @@ mGE
 oEv
 lLn
 vyw
-mGt
-vAe
-vAe
+sxL
+wbW
+wbW
 vAe
 vAe
 vAe
@@ -119194,8 +119231,8 @@ iKA
 lLn
 uaz
 iVQ
-rea
-rea
+wbW
+yeI
 rea
 rea
 rea

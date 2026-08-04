@@ -343,10 +343,6 @@
 "ajn" = (
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town/adv_guild)
-"ajE" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/blocks,
-/area/indoors/town/vault)
 "ajG" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/clothing/shirt/undershirt/fancy,
@@ -4834,6 +4830,7 @@
 	icon_state = "barsbent";
 	layer = 2.81
 	},
+/obj/structure/fake_machine/atm,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/gate)
 "cqp" = (
@@ -6507,9 +6504,6 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/garrison)
-"cYo" = (
-/turf/closed/wall/mineral/stone/moss,
-/area/indoors/town/vault)
 "cYs" = (
 /obj/structure/carpet/blue,
 /turf/open/floor/wood,
@@ -8504,7 +8498,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/wood/nosmooth,
-/area/indoors/town/vault)
+/area/under/town/basement)
 "dXH" = (
 /obj/structure/door/iron/bars{
 	name = "equipment storage"
@@ -24407,9 +24401,6 @@
 	},
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/shop)
-"lsD" = (
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/vault)
 "lsK" = (
 /obj/structure/throne{
 	name = "Throne of Vanderlin"
@@ -26565,7 +26556,7 @@
 /obj/effect/mapping_helpers/access/keyset/manor/vault,
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks,
-/area/indoors/town/vault)
+/area/under/town/basement)
 "msw" = (
 /obj/structure/fluff/walldeco/painting/seraphina{
 	pixel_y = 32
@@ -29191,9 +29182,6 @@
 "nyV" = (
 /turf/closed/mineral/bedrock,
 /area/indoors/town)
-"nzJ" = (
-/turf/open/floor/cobble,
-/area/indoors/town/vault)
 "nzP" = (
 /turf/open/openspace,
 /area/outdoors/woods_safe)
@@ -38066,7 +38054,7 @@
 /area/indoors/town/garrison)
 "rzk" = (
 /turf/open/floor/wood/nosmooth,
-/area/indoors/town/vault)
+/area/under/town/basement)
 "rzp" = (
 /obj/structure/fluff/railing/wood,
 /obj/effect/landmark/start/vagrant,
@@ -39033,9 +39021,6 @@
 /obj/item/reagent_containers/food/snacks/chocolate_carp,
 /turf/open/floor/tile,
 /area/indoors/town/shop)
-"rTW" = (
-/turf/closed/wall/mineral/craftstone,
-/area/indoors/town/vault)
 "rUh" = (
 /obj/structure/fluff/walldeco/vinez/r,
 /turf/open/floor/cobble,
@@ -39272,7 +39257,7 @@
 	dir = 8
 	},
 /turf/open/floor/blocks,
-/area/indoors/town/vault)
+/area/under/town/basement)
 "rZp" = (
 /obj/structure/flora/grass/bush_meagre/yellow,
 /turf/open/floor/dirt,
@@ -40168,10 +40153,6 @@
 /obj/structure/water_pipe,
 /turf/open/openspace,
 /area/outdoors/town/roofs)
-"stT" = (
-/obj/structure/bars,
-/turf/open/floor/blocks,
-/area/indoors/town/vault)
 "sue" = (
 /obj/structure/flora/grass/bush/wall,
 /turf/open/floor/grass,
@@ -51110,7 +51091,7 @@
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/vault,
 /turf/open/floor/cobble,
-/area/indoors/town/vault)
+/area/under/town/basement)
 "wYQ" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = 32;
@@ -74126,15 +74107,15 @@ lat
 lat
 dID
 qFx
-cYo
-cYo
-rTW
-lsD
-lsD
-rTW
-rTW
-lsD
-lsD
+grz
+grz
+fYq
+jEQ
+jEQ
+fYq
+fYq
+jEQ
+jEQ
 kKG
 tzp
 gwx
@@ -74328,7 +74309,7 @@ lat
 lat
 dID
 qFx
-lsD
+jEQ
 vHp
 wDH
 gZa
@@ -74336,7 +74317,7 @@ ycL
 gZa
 wDH
 pym
-lsD
+jEQ
 kKG
 tzp
 fNZ
@@ -74530,7 +74511,7 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 hbj
 vHp
 tsI
@@ -74538,7 +74519,7 @@ gPr
 iTw
 vHp
 wtC
-rTW
+fYq
 kKG
 hga
 hlB
@@ -74732,7 +74713,7 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 wDH
 wDH
 gZa
@@ -74740,7 +74721,7 @@ gPr
 gZa
 vHp
 jmd
-rTW
+fYq
 kKG
 hga
 ppX
@@ -74934,15 +74915,15 @@ lat
 lat
 dID
 qFx
-lsD
-cYo
-cYo
-rTW
+jEQ
+grz
+grz
+fYq
 skd
-rTW
-lsD
-cYo
-rTW
+fYq
+jEQ
+grz
+fYq
 tzp
 ybM
 ybM
@@ -75136,15 +75117,15 @@ lat
 lat
 dID
 qFx
-lsD
+jEQ
 iNO
 ylS
 bgv
 gPr
 rHU
 ycL
-rTW
-rTW
+fYq
+fYq
 fBg
 tVX
 qsa
@@ -75338,7 +75319,7 @@ lat
 lat
 dID
 qFx
-lsD
+jEQ
 oia
 tFD
 xSz
@@ -75346,7 +75327,7 @@ bER
 csm
 gPr
 oIy
-lsD
+jEQ
 tUV
 tUV
 rPn
@@ -75540,18 +75521,18 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 fZF
 fZF
-rTW
+fYq
 bVq
 dFh
 gPr
 baS
-cYo
-rTW
-lsD
-lsD
+grz
+fYq
+jEQ
+jEQ
 xpt
 fBg
 tVX
@@ -75742,7 +75723,7 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 iTZ
 mis
 fZF
@@ -75750,10 +75731,10 @@ gPr
 csm
 gPr
 csm
-rTW
+fYq
 dXF
-ajE
-stT
+scQ
+cLd
 xpt
 fBg
 tVX
@@ -75944,7 +75925,7 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 wyq
 fok
 cCo
@@ -75954,7 +75935,7 @@ gPr
 csm
 msg
 rzk
-nzJ
+fBg
 wYP
 tVX
 fBg
@@ -76146,7 +76127,7 @@ lat
 lat
 dID
 qFx
-rTW
+fYq
 syk
 rPB
 fZF
@@ -76154,10 +76135,10 @@ gPr
 csm
 gPr
 csm
-lsD
+jEQ
 dXF
 rZn
-stT
+cLd
 itS
 fBg
 kZG
@@ -76348,18 +76329,18 @@ lat
 lat
 dID
 qFx
-cYo
+grz
 fZF
 fZF
-lsD
+jEQ
 lJM
 csm
 gPr
 aqF
-cYo
-lsD
-lsD
-lsD
+grz
+jEQ
+jEQ
+jEQ
 tVX
 fBg
 xpt
@@ -76550,7 +76531,7 @@ lat
 lat
 dID
 qFx
-cYo
+grz
 iNO
 bTq
 bgv
@@ -76558,7 +76539,7 @@ gPr
 tKH
 bER
 oIy
-rTW
+fYq
 qFx
 qFx
 jEQ
@@ -76752,15 +76733,15 @@ lat
 lat
 dID
 qFx
-lsD
+jEQ
 oia
 rbb
 xSz
 gPr
 gPr
 sKq
-rTW
-rTW
+fYq
+fYq
 qFx
 qFx
 grz
@@ -76954,15 +76935,15 @@ lat
 lat
 dID
 qFx
-lsD
-rTW
-rTW
-rTW
-rTW
-rTW
-rTW
-rTW
-rTW
+jEQ
+fYq
+fYq
+fYq
+fYq
+fYq
+fYq
+fYq
+fYq
 qFx
 qFx
 grz
@@ -115792,7 +115773,7 @@ jdZ
 hVS
 gBI
 sOH
-vrr
+ojO
 luJ
 luJ
 luJ
